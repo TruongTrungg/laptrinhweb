@@ -1,0 +1,48 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+.container {  
+    padding: 50px;  
+  background-color: lightblue;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  width: 20%;
+  cursor: pointer;  
+  opacity: 0.9;  
+}  
+</style>  
+</head>  
+<body>  
+<form>  
+  <center>  <h1> Register</h1> </center>
+  <div class="container">    
+  <label> Username </label>   
+  <input type="text" name="username" size="15" required />   
+  <label> mật khẩu</label>   
+  <input type="text" name="password" size="15" required /> 
+  <label> nhập lại mật khẩu</label>   
+  <input type="text" name="retypePassword" size="15" required /> 
+  <label> email</label>   
+  <input type="text" name="email" size="15" required />  
+  <center> 
+    <a href="#"> Đã có tài khoản  ? </a> 
+    <button type="submit" class="registerbtn">Đăng ký</button></center>     
+</form>  
+</body>  
+</html>  
